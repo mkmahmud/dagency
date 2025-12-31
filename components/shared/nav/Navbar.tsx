@@ -12,14 +12,14 @@ export default function Navbar() {
     const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
 
     return (
-        <nav className="flex justify-between items-center py-4 px-6">
+        <nav className="flex justify-between items-center py-4 px-6 shadow-lg ">
             <div className="flex items-center gap-2">
                 <Image src="/logo.png" alt="Logo" width={40} height={40} />
                 <h2 className="font-bold text-lg">DAgency</h2>
             </div>
 
             {/* Desktop Menu */}
-            <ul className="hidden md:flex items-center space-x-6">
+            <ul className="hidden md:flex items-center space-x-6 font-semibold">
                 <li>
                     <Link href="/"><Button variant="ghost">Home</Button></Link>
                 </li>
@@ -65,7 +65,7 @@ export default function Navbar() {
             </div>
 
             {/* CTA Button */}
-            <Button className="hidden md:inline-block">Get Started</Button>
+            <Button className="hidden md:inline-block font-bold">Get Started</Button>
         </nav>
     );
 }
