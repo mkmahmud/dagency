@@ -3,12 +3,13 @@
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import Link from "next/link";
+ 
 export default function Footer() {
 
 
 
     return (
-        <footer >
+        <footer className="border-t border-sidebar" >
             <div className="md:flex justify-between items-center pt-4 pb-8 px-6 space-y-4 border-b border-sidebar">
                 <div className="flex items-center gap-2">
                     <Image src="/logo.png" alt="Logo" width={40} height={40} />
