@@ -19,6 +19,7 @@
   --color-chart-5: var(--chart-5);
   --color-chart-4: var(--chart-4);
   --color-gray90: var(--gray90);
+  --color-gray60: var(--gray60);
   --color-chart-3: var(--chart-3);
   --color-chart-2: var(--chart-2);
   --color-chart-1: var(--chart-1);
@@ -62,6 +63,7 @@
   /* Sidebar */
   --sidebar: #262626;
   --gray90: #E6E6E6;
+  --gray60: #98989A;
   --sidebar-foreground: #ffffff;
   --sidebar-primary: #333333;
   --sidebar-primary-foreground: #ffffff;
@@ -126,6 +128,8 @@
   --popover: #262626;
   --popover-foreground: #ffffff;
   --gray90: #E6E6E6;
+  --gray60: #98989A;
+
 
   --primary: #b1ff33;
   /* Light Green */

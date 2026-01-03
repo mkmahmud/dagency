@@ -24,7 +24,7 @@ export default function Navbar() {
                     <Link href="/"><Button variant="ghost">Home</Button></Link>
                 </li>
                 <li>
-                    <Link href="/"><Button variant="ghost">About</Button></Link>
+                    <Link href="/about"><Button variant="ghost">About</Button></Link>
                 </li>
                 <li>
                     <Link href="/"><Button variant="ghost">Services</Button></Link>
@@ -41,7 +41,7 @@ export default function Navbar() {
                     {isMenuOpen ? (
                         <span className="material-icons"> <CircleXFillIcon /> </span>
                     ) : (
-                        <Bars3BottomRight16SolidIcon className="text-xl"  />
+                        <Bars3BottomRight16SolidIcon className="text-xl" />
                     )}
                 </button>
             </div>
@@ -53,10 +53,10 @@ export default function Navbar() {
                         <Link href="/"><Button variant="ghost">Home</Button></Link>
                     </li>
                     <li>
-                        <Link href="/"><Button variant="ghost">About</Button></Link>
+                        <Link href="/about"><Button variant="ghost">About</Button></Link>
                     </li>
                     <li>
-                        <Link href="/"><Button variant="ghost">Services</Button></Link>
+                        <Link href="/services"><Button variant="ghost">Services</Button></Link>
                     </li>
                     <li>
                         <Link href="/contact"><Button variant="ghost">Contact</Button></Link>

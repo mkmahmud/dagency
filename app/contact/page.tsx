@@ -9,7 +9,7 @@ import Image from 'next/image'
 
 export default function Contact() {
     return (
-        <div>
+        <div className='border-t border-sidebar'>
             <SectionHead title="Contact Us" description="Get in touch with us today and let us help you with any questions or inquiries you may have." />
 
             {/* Social Icons */}
@@ -51,6 +51,23 @@ export default function Contact() {
             </div>
             {/* Faq */}
             <Faq />
+            {/* welcome */}
+            <div className='pb-10'>
+                <div className='flex  space-x-4 items-center p-10'>
+                    <div>
+                        <Image src="/logo.png" alt="Logo" width={100} height={100} className='mx-auto mt-10' />
+                    </div>
+                    <div className='text-gray60'>
+                        <h2 className='text-xl font-semibold py-2'>Today, SquareUp Continues to Thrive as a Leading Digital Product Agency.....</h2>
+                        <p>Combining the power of design, engineering, and project management to create transformative digital experiences. They invite you to join them on their journey and discover how they can help bring your digital ideas to life.</p>
+                    </div>
+                </div>
+                {/*  */}
+                <div className="border border-sidebar   px-2 rounded-lg flex justify-between items-center space-x-4 p-4 mx-6">
+                    <span>Welcome to SquareUp</span> <Button variant="secondary">Where collaboration, Expertise, and Client-Centricity Intersect to Shape the Future of Digital Innovation.</Button>
+                    <Button  className="">Get Started</Button>
+                </div>
+            </div>
         </div>
     )
 }
