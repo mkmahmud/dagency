@@ -1,15 +1,16 @@
+"use client";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 
 import { Checkbox } from "@/components/ui/checkbox"
 import { Label } from "@/components/ui/label";
 import { Slider } from "@/components/ui/slider"
-import { cn } from "@/lib/utils"
+ 
 import { useState } from "react";
 
 export default function StartProject() {
 
-    const [value, setValue] = useState(500); // Initial value set to 50
+    const [value, setValue] = useState(1500); // Initial value set to 50
 
     const handleSliderChange = (newValue: any) => {
         setValue(newValue[0]);

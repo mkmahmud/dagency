@@ -30,7 +30,7 @@ export default function Navbar() {
                     <Link href="/"><Button variant="ghost">Services</Button></Link>
                 </li>
                 <li>
-                    <Link href="/"><Button variant="ghost">Contact</Button></Link>
+                    <Link href="/contact"><Button variant="ghost">Contact</Button></Link>
                 </li>
             </ul>
 
@@ -59,7 +59,7 @@ export default function Navbar() {
                         <Link href="/"><Button variant="ghost">Services</Button></Link>
                     </li>
                     <li>
-                        <Link href="/"><Button variant="ghost">Contact</Button></Link>
+                        <Link href="/contact"><Button variant="ghost">Contact</Button></Link>
                     </li>
                 </ul>
             </div>
