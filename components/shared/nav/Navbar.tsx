@@ -27,7 +27,10 @@ export default function Navbar() {
                     <Link href="/about"><Button variant="ghost">About</Button></Link>
                 </li>
                 <li>
-                    <Link href="/"><Button variant="ghost">Services</Button></Link>
+                    <Link href="/work"><Button variant="ghost">Work</Button></Link>
+                </li>
+                <li>
+                    <Link href="/services"><Button variant="ghost">Services</Button></Link>
                 </li>
                 <li>
                     <Link href="/contact"><Button variant="ghost">Contact</Button></Link>
@@ -55,6 +58,11 @@ export default function Navbar() {
                     <li>
                         <Link href="/about"><Button variant="ghost">About</Button></Link>
                     </li>
+
+                    <li>
+                        <Link href="/work"><Button variant="ghost">Work</Button></Link>
+                    </li>
+
                     <li>
                         <Link href="/services"><Button variant="ghost">Services</Button></Link>
                     </li>
