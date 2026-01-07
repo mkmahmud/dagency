@@ -65,7 +65,7 @@ export default function Navbar() {
         {/* LOGO */}
         <div className="flex items-center gap-2">
           <Image src="/logo.png" alt="Logo" width={40} height={40} />
-          <h2 className="font-bold text-lg">DAgency</h2>
+          <h2 className="font-bold text-lg">Zevro IT</h2>
         </div>
 
         {/* DESKTOP MENU */}

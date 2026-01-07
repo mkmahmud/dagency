@@ -13,7 +13,7 @@ export default function Work() {
             {/* Story  */}
             <div className="mt-10  border-t border-sidebar">
                 <div className="p-10 ">
-                    <h2 className="text-[30px] font-bold ">At SquareUp</h2>
+                    <h2 className="text-[30px] font-bold ">At zevroIT </h2>
                     <p className="text-gray90 py-4">We have had the privilege of working with a diverse range of clients and delivering exceptional digital products that drive success.</p>
                     <Button className="mt-6" variant="secondary">Here are ten examples of our notable works:</Button>
                 </div>

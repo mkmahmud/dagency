@@ -51,7 +51,7 @@ export default function StartProject() {
                 height: "400px"
             }}>
                 <Image src="/logo.png" alt="Start Project" width={70} height={70} className="mx-auto mb-6" />
-                <h1 className='font-bold text-[48px]'>Thank you for your Interest in SquareUp.</h1>
+                <h1 className='font-bold text-[48px]'>Thank you for your Interest in zevroIT .</h1>
                 <p>We would love to hear from you and discuss how we can help bring your digital ideas to life. Here are the different ways you can get in touch with us.</p>
                 <Button className="font-bold mt-10">Start Project</Button>
             </div>

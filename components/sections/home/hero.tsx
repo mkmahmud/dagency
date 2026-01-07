@@ -2,6 +2,7 @@ import { Button } from '@/components/ui/button'
 import { gsap } from "gsap";
 import { useGSAP } from '@gsap/react';
 import { useRef } from 'react';
+import { Badge } from "@/components/ui/badge"
 
 export default function Hero() {
 
@@ -64,21 +65,22 @@ export default function Hero() {
                     className="border border-sidebar px-6 py-4 rounded-lg md:flex items-center space-x-2 w-fit mx-auto"
                 >
                     <p className="pl-2">For</p>
+
                     <div>
-                        <Button variant="secondary">Startups</Button>
+                        <Badge variant="secondary">Startups</Badge>
                     </div>
                     <p className="pl-2">,</p>
                     <div>
 
-                        <Button variant="secondary">Enterprise leaders</Button>
+                        <Badge variant="secondary">Enterprise leaders</Badge>
                     </div>
                     <p className="pl-2">,</p>
                     <div>
-                        <Button variant="secondary">Media & Publishers</Button>
+                        <Badge variant="secondary">Media & Publishers</Badge>
                     </div>
                     <p className="pl-2">and</p>
                     <div>
-                        <Button variant="secondary">Social Good</Button>
+                        <Badge variant="secondary">Social Good</Badge>
                     </div>
                 </div>
 

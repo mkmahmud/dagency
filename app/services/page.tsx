@@ -12,7 +12,7 @@ export default function Services() {
       <div className="mt-10  border-t border-sidebar">
         <div className="p-10 border-b border-sidebar">
           <h2 className="text-[30px] font-bold ">Design</h2>
-          <p className="text-gray90 py-4">At Squareup, our design team is passionate about creating stunning, user-centric designs that captivate your audience and elevate your brand. We believe that great design is not just about aesthetics; it's about creating seamless and intuitive user experiences. </p>
+          <p className="text-gray90 py-4">At zevroIT , our design team is passionate about creating stunning, user-centric designs that captivate your audience and elevate your brand. We believe that great design is not just about aesthetics; it's about creating seamless and intuitive user experiences. </p>
           <Button className="mt-6" variant="secondary">Our design services include:</Button>
         </div>
         <div >

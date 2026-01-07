@@ -31,7 +31,7 @@ export default function Footer() {
         {/* Logo */}
         <div className="flex items-center gap-2 footer-logo">
           <Image src="/logo.png" alt="Logo" width={40} height={40} />
-          <h2 className="font-bold text-lg">DAgency</h2>
+          <h2 className="font-bold text-lg">zevroIT</h2>
         </div>
 
         {/* Desktop Menu */}
