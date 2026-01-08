@@ -3,6 +3,7 @@ import { gsap } from "gsap";
 import { useGSAP } from '@gsap/react';
 import { useRef } from 'react';
 import { Badge } from "@/components/ui/badge"
+import Link from 'next/link';
 
 export default function Hero() {
 
@@ -91,13 +92,13 @@ export default function Hero() {
                     <div>
 
                         <Button className="mx-2 font-semibold" variant="outline" size="lg">
-                            Our Work
+                            <Link href="/work">Our Work</Link>
                         </Button>
                     </div>
                     <div>
 
                         <Button className="mx-2 font-semibold" size="lg">
-                            Contact Us
+                            <Link href="/contact">Contact Us</Link>
                         </Button>
                     </div>
                 </div>

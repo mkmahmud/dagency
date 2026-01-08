@@ -9,7 +9,7 @@ export default function Ourservice() {
 
 
             <div className="md:grid grid-cols-3 gap-6 px-4    md:space-y-0 border-t border-b border-sidebar" >
-                <ServiceCard image="/icons/design.png" title="Design" description="At zevroIT , our design team is passionate about creating stunning, user-centric designs that captivate your audience and elevate your brand. We believe that great design is not just about aesthetics; it's about creating seamless and intuitive user experiences." />
+                <ServiceCard image="/icons/design.png" title="Design" description="At Zevrot, our design team is passionate about creating stunning, user-centric designs that captivate your audience and elevate your brand. We believe that great design is not just about aesthetics; it's about creating seamless and intuitive user experiences." />
                 <div className="md:border-r md:border-l md:border-sidebar">
                     <ServiceCard image="/icons/engr.png" title="Engineering" description="Our engineering team combines technical expertise with a passion for innovation to build robust and scalable digital solutions. We leverage the latest technologies and best practices to deliver high-performance applications tailored to your specific needs." />
                 </div>

@@ -29,9 +29,11 @@ export default function Footer() {
     <footer ref={footerRef} className="border-t border-sidebar">
       <div className="md:flex justify-between items-center pt-4 pb-8 px-6 space-y-4 border-b border-sidebar">
         {/* Logo */}
-        <div className="flex items-center gap-2 footer-logo">
-          <Image src="/logo.png" alt="Logo" width={40} height={40} />
-          <h2 className="font-bold text-lg">zevroIT</h2>
+        <div className=" footer-logo">
+          <Link className="flex items-center gap-2" href="/">
+            <Image src="/logo.png" alt="Logo" width={40} height={40} />
+            <h2 className="font-bold text-lg">Zevrot</h2>
+          </Link>
         </div>
 
         {/* Desktop Menu */}
@@ -62,24 +64,20 @@ export default function Footer() {
         <div className="border border-sidebar px-2 rounded-lg flex justify-between items-center space-x-4 footer-social">
           <p className="pl-2">Stay Connected</p>
           <div className="flex space-x-2 my-2">
-            <a
-              href="http://"
+            <Link
+              href="https://www.facebook.com/zevroit"
+              target="_blank"
               className="bg-gradient-to-b from-sidebar to-black/10 p-4 rounded-md"
             >
               <Image src="/icons/f.png" alt="Icon" width={20} height={20} />
-            </a>
-            <a
-              href="http://"
+            </Link>
+            <Link
+              href="https://www.linkedin.com/in/mkmahmud/"
               className="bg-gradient-to-b from-sidebar to-black/10 p-4 rounded-md"
             >
               <Image src="/icons/l.png" alt="Icon" width={20} height={20} />
-            </a>
-            <a
-              href="http://"
-              className="bg-gradient-to-b from-sidebar to-black/10 p-4 rounded-md"
-            >
-              <Image src="/icons/l.png" alt="Icon" width={20} height={20} />
-            </a>
+            </Link>
+
           </div>
         </div>
       </div>
@@ -89,11 +87,12 @@ export default function Footer() {
         <div className="md:flex items-center space-x-4 space-y-2 footer-contact">
           <div className="flex items-center">
             <Image src="/icons/email.png" alt="Email" width={20} height={20} />
-            <span className="ml-2"> hello@gmail.com </span>
+            <a href="mailto:zevrot1@gmail.com" className="ml-2">zevrot1@gmail.com
+            </a>
           </div>
           <div className="flex items-center">
             <Image src="/icons/phone.png" alt="Phone" width={20} height={20} />
-            <span className="ml-2"> +1 234 567 890 </span>
+            <a href="tel:+8801865857191" className="ml-2"> +880 1865 857191 </a>
           </div>
           <div className="flex items-center">
             <Image
@@ -102,12 +101,12 @@ export default function Footer() {
               width={20}
               height={20}
             />
-            <span className="ml-2"> 123 Main St, City, Country </span>
+            <span className="ml-2"> Dhaka, Bangladesh </span>
           </div>
         </div>
 
         <p className="text-center my-4 md:my-0 text-sm text-gray-500 footer-bottom">
-          &copy; 2024 DAgency. All rights reserved.
+          &copy; 2026 Zevrot. All rights reserved.
         </p>
       </div>
     </footer>

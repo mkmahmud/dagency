@@ -1,0 +1,130 @@
+[
+  {
+    "id": "chic-boutique",
+    "hero": {
+      "subtitle": "Real Client Case Study",
+      "title": "Chic Boutique: Turning aesthetic into performance.",
+      "description": "Chic Boutique is a fashion eCommerce brand with strong visual identity — but weak digital performance. This project focused on conversion, clarity, and confidence."
+    },
+    "context": {
+      "description": "The brand already had traffic from Instagram and ads. The real issue was what happened after users landed. Drop-offs were high, especially on mobile.",
+      "details": [
+        { "label": "Industry", "value": "Fashion & Retail" },
+        { "label": "Timeline", "value": "4 Weeks" },
+        { "label": "Role", "value": "Design + Development" }
+      ]
+    },
+    "challenge": { "points": [
+      "Homepage overwhelmed users with too many choices",
+      "Product discovery felt slow and unclear",
+      "Visual quality was high, but trust signals were missing",
+      "Mobile experience was inconsistent"
+    ] },
+    "strategy": {
+      "description": "Instead of adding features, I focused on reducing cognitive load. Every screen had to guide the user to the next confident action.",
+      "prioritized": [
+        "Clear visual hierarchy",
+        "Faster perceived performance",
+        "Fewer but stronger CTAs"
+      ],
+      "avoided": [
+        "Heavy animations without purpose",
+        "Complex navigation patterns",
+        "Feature overload"
+      ]
+    },
+    "visual": {
+      "images": [
+        { "src": "/images/1.png", "alt": "Chic Boutique UI", "width": 1400, "height": 800 }
+      ]
+    },
+    "implementation": {
+      "description": "The site was built using a modern, component-driven architecture focused on performance and maintainability.",
+      "points": [
+        "Next.js for routing, SEO, and performance",
+        "Tailwind + ShadCN for consistent UI",
+        "GSAP for subtle, meaningful motion",
+        "Optimized images & layout stability"
+      ]
+    },
+    "results": {
+      "metrics": [
+        { "value": "40%", "label": "Faster Load Time" },
+        { "value": "↑ Engagement", "label": "Improved Product Discovery" },
+        { "value": "↓ Bounce Rate", "label": "Cleaner Navigation" }
+      ]
+    },
+    "reflection": {
+      "title": "The biggest lesson? Good design is not decoration — it’s direction.",
+      "description": "This project reinforced the idea that clarity beats complexity. When users feel guided, conversion follows naturally.",
+      "actions": [
+        { "label": "View Live Project", "variant": "secondary" },
+        { "label": "Next Case Study →", "variant": "secondary" }
+      ]
+    }
+  },
+
+  {
+    "id": "fashion-hub",
+    "hero": {
+      "subtitle": "Real Client Case Study",
+      "title": "Fashion Hub: Connecting style with convenience",
+      "description": "Fashion Hub is a retail eCommerce brand. This project focused on improving conversions and making the user journey smoother."
+    },
+    "context": {
+      "description": "The client struggled with high bounce rates and inconsistent design across pages.",
+      "details": [
+        { "label": "Industry", "value": "Retail & eCommerce" },
+        { "label": "Timeline", "value": "6 Weeks" },
+        { "label": "Role", "value": "Design + Development" }
+      ]
+    },
+    "challenge": { "points": [
+      "High bounce rate on product pages",
+      "Low conversion due to poor filtering options",
+      "Inconsistent branding across pages",
+      "Slow checkout experience"
+    ] },
+    "strategy": {
+      "description": "Focused on clarity, trust, and speed to increase conversions.",
+      "prioritized": [
+        "Simplified navigation",
+        "Fast page load",
+        "Stronger trust signals"
+      ],
+      "avoided": [
+        "Complex animations",
+        "Overcrowded layouts"
+      ]
+    },
+    "visual": {
+      "images": [
+        { "src": "/images/2.png", "alt": "Fashion Hub UI", "width": 1400, "height": 800 }
+      ]
+    },
+    "implementation": {
+      "description": "Built a fast, responsive, and intuitive platform.",
+      "points": [
+        "Next.js with static generation",
+        "Tailwind CSS for responsive design",
+        "GSAP scroll-triggered animations",
+        "Optimized images & lazy loading"
+      ]
+    },
+    "results": {
+      "metrics": [
+        { "value": "50%", "label": "Faster Load Time" },
+        { "value": "↑ Conversion", "label": "Better Checkout Experience" },
+        { "value": "↑ Engagement", "label": "Improved Product Discovery" }
+      ]
+    },
+    "reflection": {
+      "title": "The biggest lesson? Clarity and speed drive conversion.",
+      "description": "Simpler design with clear CTAs leads to happier users and better results.",
+      "actions": [
+        { "label": "View Live Project", "variant": "secondary" },
+        { "label": "Next Case Study →", "variant": "secondary" }
+      ]
+    }
+  }
+]

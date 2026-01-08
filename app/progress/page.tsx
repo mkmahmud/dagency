@@ -2,6 +2,7 @@ import OurStoryCard from "@/components/card/ourStoryCard";
 import SectionHead from "@/components/sections/home/sectionHead";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Progress() {
     return (
@@ -12,14 +13,14 @@ export default function Progress() {
             {/* Story  */}
             <div className="mt-10  border-t border-sidebar">
                 <div className="p-10 ">
-                    <h2 className="text-[30px] font-bold ">At zevroIT </h2>
+                    <h2 className="text-[30px] font-bold ">At Zevrot</h2>
                     <p className="text-gray90 py-4">We have had the privilege of working with a diverse range of clients and delivering exceptional digital products that drive success.</p>
                     <Button className="mt-6" variant="secondary">Here are ten examples of our notable works:</Button>
                 </div>
                 {/*  */}
                 <div className="border-t   border-sidebar w-full flex">
                     <div className="w-full">
-                        <OurStoryCard index="01" title="Design" description="Once upon a time, in a world driven by technology, a group of talented designers came together with a shared vision. They believed that design could shape the way people interacted with digital products. With their passion for aesthetics and usability, they founded zevroIT  Digital Product Agency's design department. Their mission was to create visually stunning and user-friendly interfaces that would leave a lasting impression." />
+                        <OurStoryCard index="01" title="Design" description="Once upon a time, in a world driven by technology, a group of talented designers came together with a shared vision. They believed that design could shape the way people interacted with digital products. With their passion for aesthetics and usability, they founded Zevrot Digital Product Agency's design department. Their mission was to create visually stunning and user-friendly interfaces that would leave a lasting impression." />
                     </div>
                     <div className="w-full border-l border-sidebar">
                         <OurStoryCard index="02" title="Engineering" description="Our engineering team is composed of skilled developers who bring ideas to life through code. They are dedicated to building robust, scalable, and efficient digital solutions. With a focus on quality and innovation, they work closely with designers and project managers to ensure seamless integration and functionality." />
@@ -52,14 +53,14 @@ export default function Progress() {
                         <Image src="/logo.png" alt="Logo" width={100} height={100} className='mx-auto mt-10' />
                     </div>
                     <div className='text-gray60'>
-                        <h2 className='text-xl font-semibold py-2'>Today, zevroIT  Continues to Thrive as a Leading Digital Product Agency.....</h2>
+                        <h2 className='text-xl font-semibold py-2'>Today, Zevrot Continues to Thrive as a Leading Digital Product Agency.....</h2>
                         <p>Combining the power of design, engineering, and project management to create transformative digital experiences. They invite you to join them on their journey and discover how they can help bring your digital ideas to life.</p>
                     </div>
                 </div>
                 {/*  */}
                 <div className="border border-sidebar   px-2 rounded-lg flex justify-between items-center space-x-4 p-4 mx-6">
-                    <span>Welcome to zevroIT </span> <Button variant="secondary">Where collaboration, Expertise, and Client-Centricity Intersect to Shape the Future of Digital Innovation.</Button>
-                    <Button className="">Get Started</Button>
+                    <span>Welcome to Zevrot</span> <Button variant="secondary">Where collaboration, Expertise, and Client-Centricity Intersect to Shape the Future of Digital Innovation.</Button>
+              <Button className=""><Link href="/contact/#start-project">Get Started</Link></Button>
                 </div>
             </div>
         </div>

@@ -6,7 +6,7 @@ import SectionHead from "./sectionHead";
 export default function WhyChooseUs() {
     return (
         <div>
-            <SectionHead title="Why Choose Us" description="Discover the benefits of partnering with zevroIT  for your digital solutions." />
+            <SectionHead title="Why Choose Us" description="Discover the benefits of partnering with Zevrot for your digital solutions." />
 
             <div className="md:flex border-t border-b border-sidebar">
                 <div>

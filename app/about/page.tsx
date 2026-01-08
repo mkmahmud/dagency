@@ -1,22 +1,24 @@
 import OurStoryCard from "@/components/card/ourStoryCard";
 import SectionHead from "@/components/sections/home/sectionHead";
+import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function About() {
     return (
         <div className='border-t border-sidebar'>
-            <SectionHead title="About Us" description="Welcome to zevroIT , where collaboration, expertise, and client-centricity intersect to shape the future of digital innovation." />
+            <SectionHead title="About Us" description="Welcome to Zevrot, where collaboration, expertise, and client-centricity intersect to shape the future of digital innovation." />
 
             {/* About */}
             <div className="border-b border-sidebar w-full">
 
                 <div className=" flex items-center space-x-4 max-w-5xl mx-auto mt-10">
                     <div>
-                        <h2 className="text-[30px] font-semibold py-2">About zevroIT </h2>
-                        <p className="text-gray90">zevroIT  is a digital product agency that is passionate about crafting exceptional digital experiences. We specialize in design, engineering, and project management, helping businesses thrive in the digital landscape. At zevroIT , we follow a structured and collaborative process to ensure the successful delivery of exceptional digital products. Our process combines industry best practices, creative thinking, and a client-centric approach.</p>
+                        <h2 className="text-[30px] font-semibold py-2">About Zevrot</h2>
+                        <p className="text-gray90">Zevrot is a digital product agency that is passionate about crafting exceptional digital experiences. We specialize in design, engineering, and project management, helping businesses thrive in the digital landscape. At Zevrot, we follow a structured and collaborative process to ensure the successful delivery of exceptional digital products. Our process combines industry best practices, creative thinking, and a client-centric approach.</p>
                     </div>
-                    <Image src="/about.png" alt="About zevroIT " width={400} height={200} />
+                    <Image src="/about.png" alt="About Zevrot" width={400} height={200} />
                 </div>
 
             </div>
@@ -26,7 +28,7 @@ export default function About() {
                 {/*  */}
                 <div className="border-t   border-sidebar w-full flex">
                     <div className="w-full">
-                        <OurStoryCard index="01" title="Design" description="Once upon a time, in a world driven by technology, a group of talented designers came together with a shared vision. They believed that design could shape the way people interacted with digital products. With their passion for aesthetics and usability, they founded zevroIT  Digital Product Agency's design department. Their mission was to create visually stunning and user-friendly interfaces that would leave a lasting impression." />
+                        <OurStoryCard index="01" title="Design" description="Once upon a time, in a world driven by technology, a group of talented designers came together with a shared vision. They believed that design could shape the way people interacted with digital products. With their passion for aesthetics and usability, they founded Zevrot Digital Product Agency's design department. Their mission was to create visually stunning and user-friendly interfaces that would leave a lasting impression." />
                     </div>
                     <div className="w-full border-l border-sidebar">
                         <OurStoryCard index="02" title="Engineering" description="Our engineering team is composed of skilled developers who bring ideas to life through code. They are dedicated to building robust, scalable, and efficient digital solutions. With a focus on quality and innovation, they work closely with designers and project managers to ensure seamless integration and functionality." />
@@ -59,14 +61,14 @@ export default function About() {
                         <Image src="/logo.png" alt="Logo" width={100} height={100} className='mx-auto mt-10' />
                     </div>
                     <div className='text-gray60'>
-                        <h2 className='text-xl font-semibold py-2'>Today, zevroIT  Continues to Thrive as a Leading Digital Product Agency.....</h2>
+                        <h2 className='text-xl font-semibold py-2'>Today, Zevrot Continues to Thrive as a Leading Digital Product Agency.....</h2>
                         <p>Combining the power of design, engineering, and project management to create transformative digital experiences. They invite you to join them on their journey and discover how they can help bring your digital ideas to life.</p>
                     </div>
                 </div>
                 {/*  */}
                 <div className="border border-sidebar   px-2 rounded-lg flex justify-between items-center space-x-4 p-4 mx-6">
-                    <span>Welcome to zevroIT </span> <Button variant="secondary">Where collaboration, Expertise, and Client-Centricity Intersect to Shape the Future of Digital Innovation.</Button>
-                    <Button className="">Get Started</Button>
+                    <span>Welcome to Zevrot</span> <Badge variant="secondary">Where collaboration, Expertise, and Client-Centricity Intersect to Shape the Future of Digital Innovation.</Badge>
+                    <Button className=""><Link href="/contact/#start-project">Get Started</Link></Button>
                 </div>
             </div>
         </div>
